@@ -9,8 +9,8 @@ export default function Info() {
         <h1>Frederico Silva</h1>
         <h3>Full Stack Developer</h3>
         <div className='container-buttons'>
-            <button><img src={mail}></img>Email</button>
-            <button><img src={linkedin}></img>LinkedIn</button>
+           <button><img src={mail}></img>Email</button>
+           <button><img src={linkedin}></img>LinkedIn</button>
         </div>
         </>
     )

@@ -18,6 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 30px;
 }
 
 .profile-image {
@@ -65,4 +66,38 @@ h3 {
 .container-buttons button:first-child {
     background-color: white;
     border: 1px solid #D1D5DB;
+}
+
+.conatiner-section {
+    width: 317px;
+    padding: 30px 35px 0 35px;
+}
+
+.conatiner-section > h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.conatiner-section > p {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.conatiner-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px 0 20px 0;
+    background-color: #161619;
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.conatiner-icons > img {
+    cursor: pointer;
 }
