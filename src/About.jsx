@@ -2,7 +2,7 @@ export default function About() {
     return (
         <div className="conatiner-section">
             <h3>About</h3>
-            <p>I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+            <p>I consider myself a curious individual, always eager to learn new things. Upon entering the programming field, I discovered my true passion - building web applications that enhance people&apos;s lives and drive business growth.</p>
         </div>
     )
 }
